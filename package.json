@@ -1,5 +1,5 @@
 {
-  "name": "liquid-light-brew-co.",
+  "name": "liquid-light-brew-co",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -9,18 +9,19 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "react": "18.2.0",
-    "react-dom": "^19.2.2",
-    "lucide-react": "0.344.0",
-    "framer-motion": "10.18.0",
-    "ogl": "1.0.11",
-    "@use-gesture/react": "10.3.0",
-    "gsap": "^3.14.1"
+    "framer-motion": "^10.18.0",
+    "gsap": "^3.12.5",
+    "lucide-react": "^0.344.0",
+    "ogl": "^1.0.11",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "@use-gesture/react": "^10.3.0"
   },
   "devDependencies": {
-    "@types/node": "^22.14.0",
-    "@vitejs/plugin-react": "^5.0.0",
-    "typescript": "~5.8.2",
-    "vite": "^6.2.0"
+    "@types/react": "^18.2.66",
+    "@types/react-dom": "^18.2.22",
+    "@vitejs/plugin-react": "^4.2.1",
+    "typescript": "^5.2.2",
+    "vite": "^5.2.0"
   }
 }
