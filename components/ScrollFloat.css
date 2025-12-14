@@ -1,0 +1,21 @@
+
+.scroll-float {
+  overflow: hidden;
+  width: 100%;
+}
+
+.scroll-float-text {
+  display: inline-block;
+  /* Standardized clamp for consistent heading sizes across the site */
+  font-size: clamp(2.5rem, 8vw, 5rem); 
+  font-weight: 900;
+  text-align: left;
+  line-height: 0.9;
+  font-family: 'Oswald', sans-serif;
+  color: #ffffff;
+}
+
+.char {
+  display: inline-block;
+  transform-style: preserve-3d;
+}

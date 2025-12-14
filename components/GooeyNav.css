@@ -1,0 +1,51 @@
+
+.gooey-nav-container {
+  position: relative;
+}
+
+.gooey-nav-container nav {
+  display: flex;
+  position: relative;
+}
+
+.gooey-nav-container nav ul {
+  display: flex;
+  gap: 1em;
+  list-style: none;
+  padding: 0 1em;
+  margin: 0;
+  position: relative;
+  z-index: 3;
+}
+
+.gooey-nav-container nav ul li {
+  position: relative;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.gooey-nav-container nav ul li button {
+  display: inline-block;
+  padding: 0.6em 1.2em;
+  background: transparent;
+  border: none;
+  color: #94a3b8; /* Slate-400 */
+  font-family: inherit;
+  font-size: 0.9rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  cursor: pointer;
+  width: 100%;
+  transition: color 0.3s ease;
+}
+
+.gooey-nav-container nav ul li:hover button {
+  color: #ffffff;
+}
+
+.gooey-nav-container nav ul li.active button {
+  color: #ffffff;
+  /* Ensure no background or underline is inadvertently applied */
+  background: transparent;
+}
